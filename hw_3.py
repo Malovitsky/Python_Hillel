@@ -5,6 +5,7 @@ from marshmallow import validate
 from webargs import fields
 from webargs.flaskparser import use_kwargs
 import requests
+import pandas
 
 app = Flask(__name__, template_folder="templates")
 
